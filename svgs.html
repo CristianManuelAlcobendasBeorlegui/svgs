@@ -1,23 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SVGs</title>
-    <link rel="stylesheet" href="css/index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVGs</title>
+  <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
-    <h1>SVGS amb paths</h1>
-    <svg width="500" height="300">
-      <path d="M150 50 L75 200 L225 200 Z"
-        fill="orangered"
-        stroke="brown" stroke-width="3"
-      />
-      <path d="M300,50 C180,245 420,245 300,50 Z"
-        fill="lightseagreen"
-        stroke="teal" stroke-width="4"
-      />
-    </svg>
+  <h1>Logo de Git amb SVG</h1>
+  <p>Nom de l'alumne: Cristian Manuel Alcobendas Beorlegui</p>
+  <svg viewbox="0 0 1000 400">
+    <!-- Rectangle logo Git -->
+    <rect x="150" y="-100" width="250" height="250" rx="30" ry="30" fill="red" stroke-width="5" stroke="red"
+      transform="rotate(45)" />
+    <!-- Cercle lateral superior -->
+    <circle cx='180' cy='120' r='25' fill='white' stroke="white" stroke-width="4" fill-opacity="1" />
+    <!-- Cercle lateral dret -->
+    <circle cx='250' cy='190' r='25' fill='white' stroke="white" stroke-width="4" fill-opacity="1" />
+    <!-- Cercle lateral inferior -->
+    <circle cx='180' cy='270' r='25' fill='white' stroke="white" stroke-width="4" fill-opacity="1" />
+    <!-- Linea lateral -->
+    <line x1="260" y1="200" x2="130" y2="75" stroke="white" stroke-width="20"/>
+    <!-- Linea horitzontal -->
+    <line x1="180" y1="250" x2="180" y2="110" stroke="white" stroke-width="20"/>
+  </svg>
+
+  <img src="./img/LogoApple.svg" alt="Logo Apple">
+  <img src="./img/LogoCocina.svg" alt="Logo cuina">
 </body>
+
 </html>
